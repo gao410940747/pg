@@ -52,6 +52,18 @@
 			}
 		},
 		{
+			"key": "AvTime",
+			"name": "AvTime",
+			"type": 3,
+			"api": "csp_AvTime",
+			"searchable": 0,
+			"changeable": 0,
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
+		},
+		{
 			"key": "网盘配置",
 			"name": "网盘及彈幕配置",
 			"type": 3,
