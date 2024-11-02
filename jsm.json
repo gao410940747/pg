@@ -11,7 +11,15 @@
 			"indexs":1,
 			"ext": "./lib/tokenm.json$$$./lib/douban.json"
 		},
-		{"key":"TGDouban","name":"TG豆瓣","type":3,"api":"csp_TGDouban","timeout":120, 
+		{
+			"key": "直播转点播",
+			"name": "🐼️┃电视┃直播",
+			"type": 3,
+			"searchable": 0,
+			"api": "./lib/live2vod.js",
+			"ext": "./lib/feimaolive.json"
+		},
+		{"key":"TGDouban","name":"TG豆瓣","type":3,"api":"csp_TGDouban","timeout":120,
 			"ext":{
 				"token":"./lib/tokenm.json",
 				"json":"./lib/tgsearch.json",
@@ -49,18 +57,6 @@
 			"style": {
 				"type": "rect",
 				"ratio": 1.77
-			}
-		},
-		{
-			"key": "AvTime",
-			"name": "AvTime",
-			"type": 3,
-			"api": "csp_AvTime",
-			"searchable": 0,
-			"changeable": 0,
-			"style": {
-				"type": "list",
-				"ratio": 1.1
 			}
 		},
 		{
@@ -132,14 +128,6 @@
 			}
 		},
 		{"key":"SambaShare","name":"Samba分享","type":3,"api":"csp_SambaShare","searchable":0,"quickSearch":0, "changeable":0, "filterable":0, "timeout":60, "ext":"./lib/tokenm.json$$$./lib/sambashare.txt"},
-		{
-			"key": "直播转点播",
-			"name": "🐼️┃电视┃直播",
-			"type": 3,
-			"searchable": 0,
-			"api": "./lib/live2vod.js",
-			"ext": "./lib/feimaolive.json"
-		},
 		{
 			"key": "FirstAid",
 			"name": "🚑 急救知识 ",
